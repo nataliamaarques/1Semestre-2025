@@ -7,14 +7,14 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 
 public class ExercicioController   {
-@GetMapping("")
+/*@GetMapping("")
 
-    public String HelloWorld1(@PathVariable String nome){
+    public String HelloWorld1(){
         return "Hello";
-    }
+    }*/
 
    
-   /*@GetMapping("{idade}")
+   @GetMapping("{idade}")
     
     public String classificaIdade(@PathVariable int idade){
 
@@ -30,7 +30,7 @@ public class ExercicioController   {
             return "Idade inválida";
         }
 
-    }*/
+    }
 /*@GetMapping("{nome}")
 
     public String HelloWorld(@PathVariable String nome){
