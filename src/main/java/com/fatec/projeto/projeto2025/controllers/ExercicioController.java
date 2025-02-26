@@ -13,6 +13,24 @@ public class ExercicioController   {
         return "Hello";
     }
 
+   
+   /*@GetMapping("{idade}")
+    
+    public String classificaIdade(@PathVariable int idade){
+
+        if (idade > 0 && idade < 12){
+            return "Criança";
+        }else if(idade >= 12 && idade <=18){
+            return "Adolescente";
+        }else if(idade >= 19 && idade <= 60){
+            return "Adulto";
+        }else if(idade > 60){
+            return "Idoso";
+        }else{
+            return "Idade inválida";
+        }
+
+    }*/
 /*@GetMapping("{nome}")
 
     public String HelloWorld(@PathVariable String nome){
